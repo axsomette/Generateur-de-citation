@@ -6,17 +6,17 @@ ini_set('display_errors', TRUE);
 ini_set('display_startup_errors', TRUE);
 
 
-$host = 'db5000272972.hosting-data.io';
-$user = 'dbu344384';
-$password = 'Lucas11&';
-$dbname = 'dbs266433';
+$host = '';
+$user = '';
+$password = '';
+$dbname = '';
 
 
 
 try
 {
   
-    $bdd = new PDO('mysql:host=db5000272972.hosting-data.io;dbname=dbs266433;charset=utf8', 'dbu344384', 'Lucas11&');
+    $bdd = new PDO('mysql:host=;dbname=dbs266433;charset=utf8', '', '');
 }
 catch(Exception $e)
 {
