@@ -16,7 +16,7 @@ $dbname = '';
 try
 {
   
-    $bdd = new PDO('mysql:host=;dbname=dbs266433;charset=utf8', '', '');
+    $bdd = new PDO('mysql:host=;;charset=utf8', '', '');
 }
 catch(Exception $e)
 {
